@@ -40,8 +40,8 @@
 		<!-- end::tests[] -->
 	</dependencies>
 
-	<build>
-    <plugins>
+  <build>
+    	<plugins>
         <plugin>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-maven-plugin</artifactId>
@@ -54,8 +54,8 @@
                 <release>17</release>
             </configuration>
         </plugin>
-    </plugins>
-</build>
+    	</plugins>
+  </build>
 
 
 </project>
