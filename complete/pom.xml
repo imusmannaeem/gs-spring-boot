@@ -16,8 +16,8 @@
 
 	<properties>
 		<compiler-plugin.version>3.10.1</compiler-plugin.version>
-		<maven.compiler.release>17</maven.compiler.release>
-		<java.version>17</java.version>
+		<maven.compiler.release>11</maven.compiler.release>
+		<java.version>11</java.version>
 	</properties>
 
 	<dependencies>
