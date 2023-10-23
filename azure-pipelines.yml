@@ -18,7 +18,7 @@ steps:
     azureSubscription: 'unaeem-subscription (e09e8db9-bd86-48ae-8eeb-eda17abcc24a)'
     Action: 'Deploy'
     AzureSpringCloud: '/subscriptions/e09e8db9-bd86-48ae-8eeb-eda17abcc24a/resourceGroups/spring/providers/Microsoft.AppPlatform/Spring/my-spring'
-    AppName: 'app1'
+    AppName: 'app2'
     UseStagingDeployment: false
     Package: 'complete/target/spring-boot-complete-0.0.1-SNAPSHOT.jar'
     mavenOptions: '-Xmx3072m'
