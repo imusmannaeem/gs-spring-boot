@@ -11,8 +11,11 @@ pool:
 
 steps:
 - task: Maven@3
+- task: UseJavaVersion@0
   inputs:
     mavenPomFile: 'complete/pom.xml'
+    versionSpec: '17'
+    addToPath: true
 - task: AzureSpringCloud@0
   inputs:
     azureSubscription: 'unaeem-subscription (e09e8db9-bd86-48ae-8eeb-eda17abcc24a)'
